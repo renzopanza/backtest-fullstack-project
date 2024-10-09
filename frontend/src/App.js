@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import MenuPrincipal from './components/MenuPrincipal/MenuPrincipal';
+import Grafico from './Grafico/Grafico';
+import './App.css'
 
 function App() {
   const [data, setData] = useState(null);
@@ -15,9 +18,12 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Frontend React com Node.js e Backend Python</h1>
-      <button onClick={fetchData}>Buscar Dados</button>
+      <MenuPrincipal/>
+      <div className='Botao'>
+        <button onClick={fetchData} className='Botao_buscar'>Buscar Dados</button>
+      </div>
       {data && <pre>{JSON.stringify(data, null, 2)}</pre>}
+      <Grafico/>
     </div>
   );
 }

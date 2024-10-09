@@ -1,0 +1,17 @@
+body{
+  background-color: #454545;
+}
+
+.Botao{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Botao_buscar{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.6rem;
+  border: 3px solid black;
+  background-color: #009c9c;
+}
