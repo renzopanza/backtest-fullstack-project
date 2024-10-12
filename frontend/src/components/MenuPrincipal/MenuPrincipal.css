@@ -1,18 +1,29 @@
 .Titulo{
     color: #009c9c;
     padding-left: 5rem;
+    font-size: 30px;
 }
 
 .Digitacao{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    margin-left: 6rem;
+    font-size: 20px;
 }
 
+.Local_digitacao_nome {
+    display: flex;
+    flex-direction: row; /* Alinhamento horizontal */
+    align-items: center; /* Alinha verticalmente ao centro */
+}
+.Local_digitacao_nome, h3{
+    display: flex;
+}
 .Input {
-    font-size: 1.2rem;
-    width: 8rem;
+    width: 8.5rem;
+    height: 2rem;
+    margin-left: 2rem;
     -moz-appearance: textfield; /* Remove setas no Firefox */
 }
 
@@ -22,8 +33,14 @@
     margin: 0; /* Remove margens padrão */
 }
 
+
+.h5{
+    font-size: 20px;
+    margin-left: 20px;
+}
 .Input_data{
     font-size: 1.2rem;
-    width: 8rem;
+    width: 8.5rem;
     margin-left: 2rem;
 }
+

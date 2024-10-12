@@ -1,5 +1,5 @@
 body{
-  background-color: #454545;
+  background-color: snow;
 }
 
 .Botao{
@@ -13,5 +13,10 @@ body{
   font-weight: bold;
   padding: 0.6rem;
   border: 3px solid black;
-  background-color: #009c9c;
+  background-color: #009c9c;  
 }
+
+.Botao_buscar:hover{
+  background-color: #009c9ca8;
+  color: rgba(0, 0, 0, 0.700);
+} 
