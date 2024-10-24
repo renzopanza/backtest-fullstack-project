@@ -16,14 +16,17 @@
     display: flex;
     flex-direction: row; /* Alinhamento horizontal */
     align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: flex-start; /* Garante que o conteúdo fique à esquerda */
 }
+
 .Local_digitacao_nome, h3{
     display: flex;
 }
+
 .Input {
     width: 8.5rem;
     height: 2rem;
-    margin-left: 2rem;
+    margin-left: 1rem; /* Diminui a margem para aproximar o input do texto */
     -moz-appearance: textfield; /* Remove setas no Firefox */
 }
 
@@ -38,9 +41,26 @@
     font-size: 20px;
     margin-left: 20px;
 }
-.Input_data{
-    font-size: 1.2rem;
-    width: 8.5rem;
-    margin-left: 2rem;
+
+.Input_data {
+    font-size: 1.5rem;
+    width: 8rem;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
+.Local_digitacao_data {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+    margin-top: 2rem; 
+    margin-bottom: 2rem;
+}
+
+label {
+    margin-right: 5px; 
+}
+
+h5 {
+    margin: 0; 
+}
