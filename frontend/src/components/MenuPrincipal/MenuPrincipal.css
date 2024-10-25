@@ -8,8 +8,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 6rem;
+    margin-left: 8rem;
     font-size: 20px;
+    padding-top: 15rem;
 }
 
 .Local_digitacao_nome {
@@ -51,7 +52,6 @@
 
 .Local_digitacao_data {
     display: flex;
-    align-items: center;
     flex-wrap: wrap; 
     margin-top: 2rem; 
     margin-bottom: 2rem;
@@ -68,8 +68,8 @@ h5 {
 .Botao{
     display: flex;
     align-items: center;
-    margin-left: 7rem;
     margin-top: 4rem;
+    margin-left: -6rem;
   }
   
 .Botao_buscar{

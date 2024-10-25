@@ -31,9 +31,9 @@ const MenuPrincipal = () => {
                     <div className='Data'>
                         <label>Fim:</label>
                         <input type="date" className='Input_data' />
-                    </div>
-                    <div className='Botao'>
-                        <button onClick={fetchData} className='Botao_buscar'>Buscar Dados</button>
+                        <div className='Botao'>
+                            <button onClick={fetchData} className='Botao_buscar'>Buscar Dados</button>
+                        </div>
                     </div>
                 </div>
                 {/* Exibe os dados buscados se existirem */}
